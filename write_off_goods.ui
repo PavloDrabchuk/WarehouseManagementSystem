@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Write_Off_Goods</class>
+ <widget class="QWidget" name="Write_Off_Goods">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>826</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Списування та утилізація товару</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="getExpiredGoodsButton">
+         <property name="maximumSize">
+          <size>
+           <width>310</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">padding: 7;
+</string>
+         </property>
+         <property name="text">
+          <string>Переглянути протерміновані товари</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="getDamagedGoodsButton">
+         <property name="maximumSize">
+          <size>
+           <width>310</width>
+           <height>42</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">padding: 7;
+</string>
+         </property>
+         <property name="text">
+          <string>Переглянути пошкоджені товари</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="messageLabel">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="deleteDamageGoodsPushButton">
+           <property name="maximumSize">
+            <size>
+             <width>170</width>
+             <height>42</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">padding: 7;
+</string>
+           </property>
+           <property name="text">
+            <string>Утилізувати товар</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="write_offGoodsButton">
+           <property name="maximumSize">
+            <size>
+             <width>170</width>
+             <height>42</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">padding: 7;
+</string>
+           </property>
+           <property name="text">
+            <string>Списати товар</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableView" name="goodsTableView"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="goToHomePageButton">
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>42</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding: 7;
+</string>
+       </property>
+       <property name="text">
+        <string>Повернутись на головну</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
